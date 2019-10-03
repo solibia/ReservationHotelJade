@@ -266,8 +266,8 @@ public class ClientAgent extends Agent {
     }
 
     public void sendEmail(Reservation reservation) {
-        String emailFrom = "email@gmail.com";
-        String password = " password";
+        String emailFrom = "bsolibia@gmail.com";
+        String password = " basile2019";
         String emailTo = reservation.getClient().getEmail();
         String sujet = "Reservation d'hotel";
         StringBuilder stringBuilder = new StringBuilder();
